@@ -32,7 +32,7 @@ m5 = magic(5)
 [max_m5,m5_ind] = find_max(m5)
 disp("--------------") 
 m6 = rand(3,3)
-[max_m6,m6_ind] = find_max(m6)
+[max_m6,m6_ind] = find_max(m6) 
 
 %{
 % Function Definitions 

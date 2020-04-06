@@ -1,10 +1,14 @@
 % plots a function 
 close all; clear; clc;
 t = [0:2:10] 
-
-A = input( 'Enter constant (A): ' );
-B = input( 'Enter constant (B): ' );
-C = input( 'Enter constant (C): ' );
+prompt = { ' Enter constant A: ',' Enter constant B: ' , ' Enter constant C:'};
+dlg_title = 'Input numbers please, or accept the defaults provided for you '; % dialog title 
+num_lines = 1; % lines for each input slot
+default_input = { '12' , '35', '26' }; 
+answer = inputdlg( prompt , dlg_title , num_lines , default_input );
+A = str2num( answer{ 1 } ) % convert string to a number
+B = str2num( answer{ 2 } ) 
+C = str2num( answer{ 3 } ) 
 
 % Method 1 
 disp("--------------Method 1")
