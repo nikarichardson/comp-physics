@@ -20,7 +20,7 @@ xn_354 = getXN(3.54,100)
 % calculate sequence for r=3.6 
 xn_360 = getXN(3.60,100) 
 
-r = 2.99:0.01:3.6; 
+r = 2.99:0.0001:3.6; 
 N = 100;
 
 x=getXN(r,N);
