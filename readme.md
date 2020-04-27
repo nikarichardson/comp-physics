@@ -22,7 +22,7 @@ logistic map with plotted sequences of N vs X_n for different values of r
 
 `lyapunov`
 calculates and plots the lyapunov exponent which characterizes 
-sensitivity to initial conditions
+sensitivity to initial conditions  
 (the rate of separation of infinitesimally close trajectories)  
 <img src="/images/lyapunov.png" height="300">
 
