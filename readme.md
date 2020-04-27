@@ -27,11 +27,11 @@ sensitivity to initial conditions
 <img src="/images/lyapunov.png" height="300" alt="Lyapunov">
 
 `witch_of_agnesi`
-plotting the famous curve of Maria Agnesi  
+plots the famous curve of Maria Agnesi  
 <img src="/images/witch_of_agnesi.png" height="300" alt="Witch of Agnesi">
 
 `linear_least_squares`
-plotting a polynomial fitting for y to x and x to y  
+plots a polynomial fitting for y to x and x to y  
 <img src="/images/linear_least_squares.png" height="300" alt="Linear Least Squares">
 
 `fibonacci`
