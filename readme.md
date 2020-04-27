@@ -10,7 +10,7 @@ least squares equations to fit a line
 
 `feigenbaum`
 quantifies the approach of chaos via period doubling with the standard logistic map 
-<img src="/images/feigenbaum.png">
+<img src="/images/feigenbaum.jpg">
 
 `logistic_map`
 calculates sequence for given parameter of r
