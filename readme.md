@@ -18,12 +18,12 @@ calculates sequence for given parameter of r
 
 `logistic_map_redux`
 logistic map with plotted sequences of N vs X_n for different values of r
-<img src="/images/logistic_map_redux.png" height="300">
+<img src="/images/logistic_map_redux.png" height="380">
 
 `lyapunov`
 calculates and plots the lyapunov exponent which characterizes 
-sensitivity to initial conditions i.e. the rate of separation of infinitesimally 
-close trajectories 
+sensitivity to initial conditions
+(the rate of separation of infinitesimally close trajectories)  
 <img src="/images/lyapunov.png" height="300">
 
 `witch_of_agnesi`
