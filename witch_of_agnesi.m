@@ -1,5 +1,5 @@
 % The Witch of Agnesi  
-% plotting the famous curve of Maria Agnesi 
+% plots the famous curve of Maria Agnesi 
 
 close all; clear; clc;
 
