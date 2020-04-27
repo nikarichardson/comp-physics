@@ -10,7 +10,6 @@ least squares equations to fit a line
 
 `feigenbaum`
 quantifies the approach of chaos via period doubling with the standard logistic map 
-<img src="/images/feigenbaum.png">
 
 `logistic_map`
 calculates sequence for given parameter of r
@@ -18,7 +17,7 @@ calculates sequence for given parameter of r
 
 `logistic_map_redux`
 logistic map with plotted sequences of N vs X_n for different values of r
-<img src="/images/logistic_map_redux.png" height="100">
+<img src="/images/logistic_map_redux.png" height="200">
 
 `lyapunov`
 calculates and plots the lyapunov exponent which characterizes 
