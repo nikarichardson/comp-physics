@@ -39,7 +39,7 @@ computes the fibonacci sequence up to n terms & plots convergence to the golden 
 <img src="/images/fibonacci.png" height="300">
 
 `pendulum`
-plots the standard solution of a pendulum starting from rest 
+plots the standard solution of a pendulum starting from rest  
 <img src="/images/pendulum.png" height="300">
 
 `max_finder`
