@@ -17,7 +17,7 @@ calculates sequence for given parameter of r
 
 `logistic_map_redux`
 logistic map with plotted sequences of N vs X_n for different values of r
-<img src="/images/logistic_map_redux.png" height="200">
+<img src="/images/logistic_map_redux.png" height="300">
 
 `lyapunov`
 calculates and plots the lyapunov exponent which characterizes 
