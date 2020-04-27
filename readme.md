@@ -13,11 +13,11 @@ quantifies the approach of chaos via period doubling with the standard logistic 
 <img src="/images/feigenbaum.png" height="300">
 
 `logistic_map`
-calculates sequence for given parameter of r
+calculates sequence for given parameter of <i>r</i>
 & plots sequence as a function of the parameter  
 
 `logistic_map_redux`
-logistic map with plotted sequences of N vs X_n for different values of r  
+logistic map with plotted sequences of <i>N</i> vs <i>X_n</i> for different values of <i>r</i>  
 <img src="/images/logistic_map_redux.png" height="380">
 
 `lyapunov`
