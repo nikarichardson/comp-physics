@@ -1,4 +1,6 @@
-% weighted least squares problem 
+% Weighted Least Squares
+% plots height as a function of time & uses weighted
+% least squares equations to fit a line 
 close all; clear; clc;
 
 % reading data from file:

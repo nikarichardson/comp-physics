@@ -1,3 +1,4 @@
+% Max Finder 
 % returns the maximum value of a matrix and its index 
 close all; clear; clc;
 

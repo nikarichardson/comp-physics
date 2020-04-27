@@ -1,3 +1,4 @@
+% Plotting Function
 % plots a function 
 close all; clear; clc;
 t = [0:2:10] 
