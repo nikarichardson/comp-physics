@@ -46,4 +46,4 @@ plots the standard solution of a pendulum starting from rest
 returns the maximum value of a matrix and its index  
 
 `function_plot`
-plots a function
+plots a standard function
