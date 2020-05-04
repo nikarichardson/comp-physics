@@ -61,6 +61,7 @@ plots the lowest solutions to the square well
 finds the first allowable energies of a finite square well by calculating the 
 intersections of the graphs
 <img src="/images/finite_square_well_1.png" height="300" alt="Finite Square Well Potential">
+<br>
 <img src="/images/finite_square_well_2.png" height="300" alt="Finite Square Well Solutions">
 
 `function_plot`
