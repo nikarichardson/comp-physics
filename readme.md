@@ -45,5 +45,21 @@ plots the standard solution of a pendulum starting from rest
 `max_finder`
 returns the maximum value of a matrix and its index  
 
+`bisection_method`
+calculates the cube root of 169 using the bisection method 
+
+`secant method`
+calculates the cube root of 169 using the secant method
+
+`newton_raphson_legendre`
+finds the smallest positive root of the ninth legendre polynomial using the Newton-Raphson technique
+
+`finite_square_well`
+plots the lowest solutions to the square well
+
+`finite_square_well_energies`
+finds the first allowable energies of a finite square well by calculating the 
+intersections of the graphs
+
 `function_plot`
 plots a standard function
