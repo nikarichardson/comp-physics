@@ -9,7 +9,7 @@ a = 0.7;        % units: nm
 m = 1.0;        % units: e_m (mass of an electron)
 V0 = 17;        % units: ev 
 
-% see finite_square_well_energies.m (modified) for calculations  
+% see schrodinger.m (modified) for calculations  
 E1 = 0.1683; % EVEN 
 E2 = 0.6727; % ODD 
 
@@ -59,20 +59,23 @@ psi2r = -D2*exp(-mu2*(xr)); % D2 = F
 
 hold on 
 % Plotting Ψ as a Function of Position in the Well 
-plot(xl,psi1l,'Color',palatinate_purple,'LineWidth',1.5)
-plot(xm,psi1m,'Color',palatinate_purple,'LineWidth',1.5)
-plot(xr,psi1r,'Color',palatinate_purple,'LineWidth',1.5)
-ylabel("Wavefunction Ψ")
-title("Solutions to the Finite Square Well Problem") 
-xlabel("Position (x)") 
+p1(1) = plot(xl,psi1l,'Color',palatinate_purple,'LineWidth',1.5);
+p1(2) = plot(xm,psi1m,'Color',palatinate_purple,'LineWidth',1.5);
+p1(3) = plot(xr,psi1r,'Color',palatinate_purple,'LineWidth',1.5);
+legend(p1(1), 'E = 0.1683')
+% 'Color',palatinate_purple,'LineWidth',1.5,'DisplayName',"E = 0.1683");
+ylabel("Wavefunction Ψ");
+title("Lowest Energy Solutions to the Finite Square Well Problem");
+xlabel("Position (x)");
 xline(a,'LineWidth',2,'Color',metal); 
 xline(-a,'LineWidth',2,'Color',metal); 
 ylim([-1.5 1.5])
 xlim([-1.3 1.3]) 
 set(gca,'FontSize',16)
-plot(xl,psi2l,'Color',english_lavender,'LineWidth',1.5)
-plot(xm,psi2m,'Color',english_lavender,'LineWidth',1.5)
-plot(xr,psi2r,'Color',english_lavender,'LineWidth',1.5)
+p2(1) = plot(xl,psi2l,'Color',english_lavender,'LineWidth',1.5);
+p2(2) = plot(xm,psi2m,'Color',english_lavender,'LineWidth',1.5);
+p2(3) = plot(xr,psi2r,'Color',english_lavender,'LineWidth',1.5);
+legend([p1(1), p2(1)], {'E = 0.1683', 'E = 0.6727'}) 
 
 %{
 % Graphing the Potential 
@@ -137,3 +140,4 @@ ylim([-3 20])
 title("Potential Graph for a Solution to Finite Square Well Problem (E2)") 
 xlabel("Position (x)")
 ylabel("Energy (eV)") 
+
