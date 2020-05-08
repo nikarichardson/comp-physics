@@ -62,7 +62,6 @@ hold on
 p1(1) = plot(xl,psi1l,'Color',palatinate_purple,'LineWidth',1.5);
 p1(2) = plot(xm,psi1m,'Color',palatinate_purple,'LineWidth',1.5);
 p1(3) = plot(xr,psi1r,'Color',palatinate_purple,'LineWidth',1.5);
-legend(p1(1), 'E = 0.1683')
 % 'Color',palatinate_purple,'LineWidth',1.5,'DisplayName',"E = 0.1683");
 ylabel("Wavefunction Ψ");
 title("Lowest Energy Solutions to the Finite Square Well Problem");
