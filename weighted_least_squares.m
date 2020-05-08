@@ -25,7 +25,7 @@ y=t_rnd;
 plot(t_rnd,h_rnd,'*','DisplayName','data','Color',[100/255	149/255	237/255]); 
 xlabel("time (s) ");
 ylabel("height (cm) ");
-title("Height of Erdinger Beer Froth As a Function of Time (V1: Polyfit)");
+title("Height of Erdinger Beer Froth As a Function of Time (V1: Polyfit)",'interpreter','latex');
 
 % linearized form
 % ln(h_0) = t/tau + ln(h) 

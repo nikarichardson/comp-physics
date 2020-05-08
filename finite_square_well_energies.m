@@ -22,12 +22,12 @@ E = 0:0.00001:V0;
 y1 = tan( a * sqrt( 2 * m * E / hbar2 ) ) ; % tan(k*a) for even wave function 
 y3 = - cot( a * sqrt( 2 * m * E / hbar2 ) ) ; % cot(k*a) for odd wave functions
 y2 = sqrt( (V0-E)./E ); 
-plot(E,y1,'b.', 'MarkerSize',1,'DisplayName','tan(a sqrt(2*m*E/hbar2 ))','Color',english_lavender);
+plot(E,y1,'b.', 'MarkerSize',1,'DisplayName','$tan(a sqrt(2*m*E/hbar2 ))$','Color',english_lavender,'interpreter','latex');
 xlabel('E in eV' , 'Fontsize',10 ); 
 ylabel('tan, cot and sqrt((V0-E)/E)' , 'Fontsize',13);
 hold on;
-plot(E,y3,'g.', 'MarkerSize',1,'DisplayName','-cot(a sqrt(2*m*E/hbar2 ))','Color',dark_slate_blue);
-plot(E,y2,'DisplayName','sqrt((V0-E)/E))','Color',old_mauve);
+plot(E,y3,'g.', 'MarkerSize',1,'DisplayName','$-cot(a sqrt(2*m*E/hbar2 ))$','Color',dark_slate_blue,'interpreter','latex');
+plot(E,y2,'DisplayName','$sqrt((V0-E)/E))$','Color',old_mauve,'interpreter','latex');
 
 % FINDING E_1 intercept of y2 and y1
 idx = find(y2 - y1 < eps,1); % get index of intersection 

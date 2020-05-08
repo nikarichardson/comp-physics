@@ -35,8 +35,8 @@ for n=50:N
     xlim([3 3.6]);
     plot(r,x,'k.','MarkerSize',.1);
     xlabel("r"); 
-    title("Logistic Map x_{n+1} = r*x_{n}(1-x_{n})");
-    ylabel("x_{n}");
+    title("Logistic Map $x_{n+1} = r*x_{n}(1-x_{n})$",'interpreter','latex');
+    ylabel("$x_{n}$",'interpreter','latex');
     hold on
 end
 

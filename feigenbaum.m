@@ -48,9 +48,9 @@ for r=2.98:0.001:3.60 % iterate through r
     
     % plotting the logistic map
     plot(size_fill, x(901:1000), '.','Color', english_lavender);
-    title("The Standard Logistic Map With Demarcated Period Doubling")
-    xlabel("r"); 
-    ylabel("x_n");
+    title("The Standard Logistic Map With Demarcated Period Doubling",'interpreter','latex')
+    xlabel("$r$",'interpreter','latex'); 
+    ylabel("$x_n$",'interpreter','latex');
 end 
     
 % Plot Pyrotechnics.

@@ -63,9 +63,9 @@ p1(1) = plot(xl,psi1l,'Color',palatinate_purple,'LineWidth',1.5);
 p1(2) = plot(xm,psi1m,'Color',palatinate_purple,'LineWidth',1.5);
 p1(3) = plot(xr,psi1r,'Color',palatinate_purple,'LineWidth',1.5);
 % 'Color',palatinate_purple,'LineWidth',1.5,'DisplayName',"E = 0.1683");
-ylabel("Wavefunction Ψ");
+ylabel("Wavefunction $Ψ$",'interpreter','latex');
 title("Lowest Energy Solutions to the Finite Square Well Problem");
-xlabel("Position (x)");
+xlabel("Position (x)",'interpreter','latex');
 xline(a,'LineWidth',2,'Color',metal); 
 xline(-a,'LineWidth',2,'Color',metal); 
 ylim([-1.5 1.5])
@@ -106,8 +106,8 @@ text(1.3/2,E1+1.3,'E1 = 0.6964') %E1 = 0.1920;
 xlim([-1.3 1.3]) 
 ylim([-3 20])
 title("Potential Graph for a Solution to Finite Square Well Problem (E1)") 
-xlabel("Position (x)")
-ylabel("Energy (eV)") 
+xlabel("Position (x)",'interpreter','latex')
+ylabel("Energy (eV)",'interpreter','latex') 
 
 % Potential for E2
 en2 = E2; 
@@ -136,7 +136,7 @@ hold on;
 text(1.3/2,E2+1.3,'E2 = 0.6964') 
 xlim([-1.3 1.3]) 
 ylim([-3 20])
-title("Potential Graph for a Solution to Finite Square Well Problem (E2)") 
-xlabel("Position (x)")
-ylabel("Energy (eV)") 
+title("Potential Graph for a Solution to Finite Square Well Problem (E2)",'interpreter','latex') 
+xlabel("Position (x)",'interpreter','latex')
+ylabel("Energy (eV)",'interpreter','latex') 
 

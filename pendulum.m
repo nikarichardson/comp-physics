@@ -14,6 +14,6 @@ for id=1:length(t)
 end 
 
 plot(t,arr)
-title("The Motion of a Pendulum")
-ylabel("t")
-xlabel("\alpha(t) = \alpha_0 cos(\surd{g/l * t})") 
+title("The Motion of a Pendulum",'interpreter','latex')
+ylabel("$t$",'interpreter','latex')
+xlabel("$\alpha(t) = \alpha_0 cos(\surd{g/l * t})$",'interpreter','latex') 

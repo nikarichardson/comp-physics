@@ -26,9 +26,9 @@ function witch_of_Agnesi(a)
     x = linspace(-10,10);
     y = 8*a^3 ./ (x.^2 + 4.*a.^2);
     plot(x,y)
-    xlabel("x")
-    ylabel("y = 8a^{3} / (x^{2} + 4a^{2})")
-    title("The Witch of Agnesi")
+    xlabel("$x$",'interpreter','latex')
+    ylabel("$y = 8a^{3} / (x^{2} + 4a^{2})$",'interpreter','latex')
+    title("The Witch of Agnesi",'interpreter','latex')
     ylim([0 8.35])
     hold on; 
 end 

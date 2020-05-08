@@ -25,9 +25,9 @@ for n=N-50:N
 end
 
 xlim([2.8 4.0]); % r
-xlabel("r"); 
-title("Logistic Map & The Lyapunov Characteristic X_{n+1} = r*X_{n}(1-X_{n})");
-ylabel("X_{n}");
+xlabel("$r$",'interpreter','latex'); 
+title("Logistic Map & The Lyapunov Characteristic $X_{n+1} = r*X_{n}(1-X_{n})$",'interpreter','latex');
+ylabel("$X_{n}$",'interpreter','latex');
 hold off
 
 % ---------------------------------------
@@ -45,11 +45,11 @@ end
 % plotting λ as a function of r 
 figure
 plot(rs,lams)
-xlabel("r")
-ylabel("\lambda")
+xlabel("$r$",'interpreter','latex')
+ylabel("$\lambda$",'interpreter','latex')
 xlim([2.8 4.0])
 yline(0)
-title("Lyapunov Characteristic \lambda = 1/n*sum (ln \mid df(x_i)/dx \mid") 
+title("Lyapunov Characteristic $\lambda = 1/n*sum (ln \mid df(x_i)/dx \mid$",'interpreter','latex') 
 
 % these functions are similar but different 
 % one is employed in the logistic graph

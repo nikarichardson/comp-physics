@@ -19,7 +19,7 @@ plot(x,y,'r*','DisplayName','data A')
 xlim([2.17 2.18])
 hold on; 
 plot(x, g,'b-','DisplayName','best fit A') % plot fit and data together
-title( 'Polynomial Fitting Y ~ X & X ~ Y' )
+title( '$Polynomial Fitting Y ~ X & X ~ Y$','interpreter','latex')
 disp("------------------------------------") 
 disp("Slope and Intercept of A") 
 a_slope = p(1)
@@ -62,7 +62,7 @@ g = polyval( p , x ); % evaluate the fit
 plot( x, y ,'r*','DisplayName','data')
 hold on;
 plot(x ,g ,'b-','DisplayName','best fit') % plot fit & data together
-title( 'Polynomial Fitting Y ~ X' )
+title( '$Polynomial Fitting Y ~ X$','interpreter','latex')
 a_slope = p(1);
 a_intercept = p(2);
 legend
@@ -74,7 +74,7 @@ g = polyval(p,y); % evaluate the fit
 plot(x, y,'g*','DisplayName','data')
 hold on; 
 plot(g,y,'m-','DisplayName','best fit') % plot fit & data together
-title( 'Polynomial Fitting X ~ Y' )
+title( '$Polynomial Fitting X ~ Y$','interpreter','latex')
 b_slope = p(1);
 b_intercept = p(2);
 grid on;

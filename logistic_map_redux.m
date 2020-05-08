@@ -32,8 +32,8 @@ for n=N-50:N
     ylim([0.4 0.6]); % x_n
     plot(r,x,'k.');
     xlabel("r"); 
-    title("Logistic Map X_{n+1} = r*X_{n}(1-X_{n})");
-    ylabel("X_{n}");
+    title("Logistic Map $X_{n+1} = r*X_{n}(1-X_{n})$",'interpreter','latex');
+    ylabel("$X_{n}$",'interpreter','latex');
     hold on
 end
 
@@ -55,22 +55,22 @@ for i=1:3
 end 
 
 n=50:100; 
-plot(50:100,plots(:,:,1),'Color', palatinate_purple,'DisplayName','r=3.53') 
-ylabel("X_{n}"); 
-xlabel("N"); 
-title("N vs X_{n} for r=3.53");
+plot(50:100,plots(:,:,1),'Color', palatinate_purple,'DisplayName','$r=3.53$','interpreter','latex') 
+ylabel("$X_{n}$",'interpreter','latex'); 
+xlabel("$N$",'interpreter','latex'); 
+title("$N$ vs $X_{n}$ for $r=3.53$",'interpreter','latex');
 
 subplot(2,2,3)
-plot(50:100,plots(:,:,2),'Color', english_lavender,'DisplayName','r=3.56')
-ylabel("X_{n}"); 
-xlabel("N"); 
-title("N vs X_{n}  for r=3.56");
+plot(50:100,plots(:,:,2),'Color', english_lavender,'DisplayName','$r=3.56$','interpreter','latex')
+ylabel("$X_{n}$",'interpreter','latex'); 
+xlabel("$N$",'interpreter','latex'); 
+title("$N$ vs $X_{n}$  for $r=3.56$",'interpreter','latex');
 
 subplot(2,2,4)
-plot(50:100,plots(:,:,3),'Color', dark_slate_blue,'DisplayName','r=3.59') 
-ylabel("X_{n}"); 
-xlabel("N"); 
-title("N vs X_{n}  for r=3.59");
+plot(50:100,plots(:,:,3),'Color', dark_slate_blue,'DisplayName','$r=3.59$','interpreter','latex') 
+ylabel("$X_{n}$",'interpreter','latex'); 
+xlabel("$N$",'interpreter','latex'); 
+title("$N$ vs $X_{n}$  for $r=3.59$",'interpreter','latex');
 
 % returns the XN with given parameter and N 
 function x = getXN(r,N)
