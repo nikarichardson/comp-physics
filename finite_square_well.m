@@ -62,10 +62,9 @@ hold on
 p1(1) = plot(xl,psi1l,'Color',palatinate_purple,'LineWidth',1.5);
 p1(2) = plot(xm,psi1m,'Color',palatinate_purple,'LineWidth',1.5);
 p1(3) = plot(xr,psi1r,'Color',palatinate_purple,'LineWidth',1.5);
-% 'Color',palatinate_purple,'LineWidth',1.5,'DisplayName',"E = 0.1683");
-ylabel("Wavefunction $Ψ$",'interpreter','latex');
-title("Lowest Energy Solutions to the Finite Square Well Problem");
-xlabel("Position (x)",'interpreter','latex');
+ylabel("Wavefunction $\psi$",'interpreter','latex');
+title("Lowest Energy Solutions to the Finite Square Well Problem",'interpreter','latex');
+xlabel("Position ($x$)",'interpreter','latex');
 xline(a,'LineWidth',2,'Color',metal); 
 xline(-a,'LineWidth',2,'Color',metal); 
 ylim([-1.5 1.5])
@@ -74,7 +73,7 @@ set(gca,'FontSize',16)
 p2(1) = plot(xl,psi2l,'Color',english_lavender,'LineWidth',1.5);
 p2(2) = plot(xm,psi2m,'Color',english_lavender,'LineWidth',1.5);
 p2(3) = plot(xr,psi2r,'Color',english_lavender,'LineWidth',1.5);
-legend([p1(1), p2(1)], {'E = 0.1683', 'E = 0.6727'}) 
+legend([p1(1), p2(1)], {'$E_1$ = 0.1683', '$E_2$ = 0.6727'},'interpreter','latex') 
 
 %{
 % Graphing the Potential 
@@ -102,12 +101,12 @@ subplot(2,1,1);
 yline(E1,'-.','LineWidth',1,'Color',english_lavender)
 hold on; 
 plot(lin,mat2,'Color',metal);
-text(1.3/2,E1+1.3,'E1 = 0.6964') %E1 = 0.1920; 
+text(1.3/2,E1+1.3,'$E_1$ = 0.6964','interpreter','latex') %E1 = 0.1920; 
 xlim([-1.3 1.3]) 
 ylim([-3 20])
-title("Potential Graph for a Solution to Finite Square Well Problem (E1)") 
-xlabel("Position (x)",'interpreter','latex')
-ylabel("Energy (eV)",'interpreter','latex') 
+title("Potential Graph for a Solution to Finite Square Well Problem ($E_1$)",'interpreter','latex') 
+xlabel("Position ($x$)",'interpreter','latex')
+ylabel("Energy ($eV$)",'interpreter','latex') 
 
 % Potential for E2
 en2 = E2; 
@@ -133,10 +132,10 @@ plot(lin,mat2,'Color',metal);
 lp = linspace(-2*a,-a,10^4);
 rp = linspace(-3,20,10^4);
 hold on;
-text(1.3/2,E2+1.3,'E2 = 0.6964') 
+text(1.3/2,E2+1.3,'$E_2$ = 0.6964','interpreter','latex') 
 xlim([-1.3 1.3]) 
 ylim([-3 20])
 title("Potential Graph for a Solution to Finite Square Well Problem (E2)",'interpreter','latex') 
-xlabel("Position (x)",'interpreter','latex')
-ylabel("Energy (eV)",'interpreter','latex') 
+xlabel("Position ($x$)",'interpreter','latex')
+ylabel("Energy ($eV$)",'interpreter','latex') 
 

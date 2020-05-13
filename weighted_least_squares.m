@@ -23,8 +23,8 @@ y=t_rnd;
 
 % plot the data
 plot(t_rnd,h_rnd,'*','DisplayName','data','Color',[100/255	149/255	237/255]); 
-xlabel("time (s) ");
-ylabel("height (cm) ");
+xlabel("time (s) ",'interpreter','latex');
+ylabel("height (cm) ",'interpreter','latex');
 title("Height of Erdinger Beer Froth As a Function of Time (V1: Polyfit)",'interpreter','latex');
 
 % linearized form
@@ -44,13 +44,12 @@ a=p(2);
 b=p(1);
 
 figure; 
-% plot(t_rnd, log(h), 'p',t_rnd, polyval(p, t_rnd), '-m')
 plot(t_rnd, h,'*','Color',[75/255 0/255 130/255])
 hold on;
-xlabel("time (s) ");
-ylabel("height (cm) ");
+xlabel("time (s) ",'interpreter','latex');
+ylabel("height (cm)",'interpreter','latex');
 plot(t_rnd, exp(a)*exp(t_rnd*b),'-','Color',[220/255 20/255	60/255])
-title("Height of Erdinger Beer Froth As a Function of Time (V2: Polyfit)");
+title("Height of Erdinger Beer Froth As a Function of Time (V2: Polyfit)",'interpreter','latex');
 
 % VERSION 3 wlsqr
 % the method of determinants 
@@ -97,8 +96,8 @@ disp("(from partial derivative and sigma_i^2)")
 % plot the data
 plot(t_rnd,h_rnd,'*','DisplayName','data','Color',[100/255	149/255	237/255]); 
 hold on; 
-title("Weighted Least Squares Fit for Beer Foam (V3: Method of Determinants)") 
+title("Weighted Least Squares Fit for Beer Foam (V3: Method of Determinants)",'interpreter','latex') 
 plot(x, f,'DisplayName',"best fit")
-xlabel("time (s) ");
-ylabel("height (cm) ");
+xlabel("time (s) ",'interpreter','latex');
+ylabel("height (cm) ",'interpreter','latex');
 legend; 

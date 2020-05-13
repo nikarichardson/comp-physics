@@ -26,7 +26,7 @@ end
 
 xlim([2.8 4.0]); % r
 xlabel("$r$",'interpreter','latex'); 
-title("Logistic Map & The Lyapunov Characteristic $X_{n+1} = r*X_{n}(1-X_{n})$",'interpreter','latex');
+title("Logistic Map \& The Lyapunov Characteristic $X_{n+1} = r*X_{n}(1-X_{n})$",'interpreter','latex');
 ylabel("$X_{n}$",'interpreter','latex');
 hold off
 

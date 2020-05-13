@@ -79,10 +79,10 @@ zeroes;
 figure
 hold on
 plot(zeroes(:,1),zeroes(:,2),'Color', palatinate_purple) 
-title("Zeroes as a Function of R Parameter") 
-xlabel("r")
+title("Zeroes as a Function of R Parameter",'interpreter','latex') 
+xlabel("$r$",'interpreter','latex')
 ylim([1 102]) 
-ylabel("number of zeroes")
+ylabel("number of zeroes",'interpreter','latex')
 
 % values taken from the first col of zeroes array 
 doubling = [2.998 3.449 3.5440 3.570 3.582 3.584]

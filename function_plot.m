@@ -16,9 +16,9 @@ disp("--------------Method 1")
 y = A.*t.^(3/2)+B.*t+C
 
 plot(t,y)
-title('Method 1: Solutions of $At^{3/2}+Bt+C For T=0:2:10$','interpreter','latex')
-xlabel( 't' );
-ylabel( 'output ' );
+title('Method 1: Solutions of $At^{3/2}+Bt+C$ For $T=0:2:10$','interpreter','latex')
+xlabel( 't' ,'interpreter','latex');
+ylabel( 'output ','interpreter','latex');
 
 % Method 2 
 % initialize with empty zero array
@@ -34,6 +34,6 @@ arr
 
 figure
 plot(t,arr)
-title('Method 2: Solutions of $At^{3/2}+Bt+C For T=0:2:10$','interpreter','latex')
-xlabel( 't' );
-ylabel( 'output ' );
+title('Method 2: Solutions of $At^{3/2}+Bt+C$ For $T=0:2:10$','interpreter','latex')
+xlabel( 't','interpreter','latex');
+ylabel( 'output ','interpreter','latex');

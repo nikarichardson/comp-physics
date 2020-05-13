@@ -55,19 +55,19 @@ for i=1:3
 end 
 
 n=50:100; 
-plot(50:100,plots(:,:,1),'Color', palatinate_purple,'DisplayName','$r=3.53$','interpreter','latex') 
+plot(50:100,plots(:,:,1),'Color', palatinate_purple,'DisplayName','$r=3.53$') 
 ylabel("$X_{n}$",'interpreter','latex'); 
 xlabel("$N$",'interpreter','latex'); 
 title("$N$ vs $X_{n}$ for $r=3.53$",'interpreter','latex');
 
 subplot(2,2,3)
-plot(50:100,plots(:,:,2),'Color', english_lavender,'DisplayName','$r=3.56$','interpreter','latex')
+plot(50:100,plots(:,:,2),'Color', english_lavender,'DisplayName','$r=3.56$')
 ylabel("$X_{n}$",'interpreter','latex'); 
 xlabel("$N$",'interpreter','latex'); 
 title("$N$ vs $X_{n}$  for $r=3.56$",'interpreter','latex');
 
 subplot(2,2,4)
-plot(50:100,plots(:,:,3),'Color', dark_slate_blue,'DisplayName','$r=3.59$','interpreter','latex') 
+plot(50:100,plots(:,:,3),'Color', dark_slate_blue,'DisplayName','$r=3.59$') 
 ylabel("$X_{n}$",'interpreter','latex'); 
 xlabel("$N$",'interpreter','latex'); 
 title("$N$ vs $X_{n}$  for $r=3.59$",'interpreter','latex');
