@@ -65,4 +65,26 @@ intersections of the graphs
 <img src="/images/finite_square_well_2.png" width="500" alt="Finite Square Well Solutions">
 
 `function_plot`
-plots a standard function
+simply plots a standard function
+
+`runge_phenomenon`
+plots the oscillation at edges of intervals due to high degree Lagrangian polynomials (runge's phenomenon)over equispaced interpolation points and plots interpolating polynomials of the 5th & 9th order
+
+<img src="/images/runge_phenomenon.png" width="500" alt="Runge Phenomenon">
+
+`root_of_bessel`
+plots and finds the root of the bessel function
+
+<img src="/images/bessel_root.png" width="500" alt="Root of the Bessel Function">
+
+`interpolations	`
+finds linear, quadratic, and cubic interpolations of the airy pattern 
+
+<img src="/images/interpolations.png" width="500" alt="Linear, Quadratic, and Cubic Interpolations">
+
+`airy pattern`
+plots the airy pattern continuously and for a discrete set of values
+
+<img src="/images/airy_pattern_1.png" width="500" alt="Airy Pattern I">
+
+<img src="/images/airy_pattern_2.png" width="500" alt="Airy Pattern II"> 
