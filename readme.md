@@ -14,7 +14,9 @@ quantifies the approach of chaos via period doubling with the standard logistic 
 
 `logistic_map`
 calculates sequence for given parameter of <i>r</i>
-& plots sequence as a function of the parameter  
+& plots sequence as a function of the parameter 
+
+<img src="/images/logistic_map_1.png" height="380" alt="Logistic Map I">
 
 `logistic_map_redux`
 logistic map with plotted sequences of <i>N</i> vs <i>X_n</i> for different values of <i>r</i>  
@@ -25,6 +27,8 @@ calculates and plots the lyapunov exponent which characterizes
 sensitivity to initial conditions  
 (the rate of separation of infinitesimally close trajectories)  
 <img src="/images/lyapunov.png" height="300" alt="Lyapunov">
+
+<img src="/images/logistic_map_lyapunov.png" height="380" alt="Logistic Map Lyapunov">
 
 `witch_of_agnesi`
 plots the famous curve of Maria Agnesi  
