@@ -81,7 +81,7 @@ plots the oscillation at edges of intervals due to high degree Lagrangian polyno
 `root_of_bessel`
 plots and finds the root of the bessel function
 
-<img src="/images/bessel_root.png" width="500" alt="Root of the Bessel Function">
+<img src="/images/bessel_root.png" width="800" alt="Root of the Bessel Function">
 
 `interpolations	`
 finds linear, quadratic, and cubic interpolations of the airy pattern 
