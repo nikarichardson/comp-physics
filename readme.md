@@ -70,7 +70,9 @@ simply plots a standard function
 `runge_phenomenon`
 plots the oscillation at edges of intervals due to high degree Lagrangian polynomials (runge's phenomenon)over equispaced interpolation points and plots interpolating polynomials of the 5th & 9th order
 
-<img src="/images/runge_phenomenon.png" width="500" alt="Runge Phenomenon">
+<img src="/images/runge_phenomenon_1.png" width="500" alt="Runge Phenomenon I">
+
+<img src="/images/runge_phenomenon_2.png" width="500" alt="Runge Phenomenon I">
 
 `root_of_bessel`
 plots and finds the root of the bessel function
