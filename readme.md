@@ -94,3 +94,28 @@ plots the airy pattern continuously and for a discrete set of values
 <img src="/images/airy_pattern_1.png" width="500" alt="Airy Pattern I">
 
 <img src="/images/airy_pattern_2.png" width="500" alt="Airy Pattern II"> 
+
+`derivative_approx_diff	`
+plots the forward, backward, and central approximations of the derivative of a function
+
+<img src="/images/derivative_approx_diff.png" width="500" alt="Derivative Approximations"> 
+
+`fresnel_integrals`
+numerically integrates the Fresnel integrals to plot diffraction pattern of knife edge
+
+<img src="/images/fresnel_integrals.png" width="500" alt="Diffraction Pattern of Knife Edge"> 
+
+`integration_i`
+integrates sin function using trapezoid, Simpson's, and Simpson's 3/8 rule
+
+<img src="/images/simpson_rule.png" width="500" alt="Simpson's Rule"> 
+
+<img src="/images/simpson_3_8_rule.png" width="500" alt="Simpson's 3/8 Rule"> 
+
+<img src="/images/simpson_3_8_rule.png" width="500" alt="Trapezoid Rule"> 
+
+`large_amp_pendulum`
+plots the period of the large amplitude pendulum as a function of the amplitude
+
+<img src="/images/large_amp_pendulum_1.png" width="500" alt="Period of a Large Amplitude Pendulum"> 
+<img src="/images/large_amp_pendulum_2.png" width="500" alt="The Elliptic Integral of the First Kind"> 
