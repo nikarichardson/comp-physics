@@ -119,3 +119,20 @@ plots the period of the large amplitude pendulum as a function of the amplitude
 
 <img src="/images/large_amp_pendulum_1.png" width="500" alt="Period of a Large Amplitude Pendulum"> 
 <img src="/images/large_amp_pendulum_2.png" width="500" alt="The Elliptic Integral of the First Kind"> 
+
+`2D_random_walkers`
+visualizes 1,000 2D random walkers starting at same origin at same time
+<img src="/images/random_walkers.png" width="500" alt="1,000 2D Random Walkers"> 
+
+`integration_1`
+integrates a two dimensional integral with the trapezoidal rule 
+
+`integration_2`
+integrates a multi-dimensional integral
+
+`linear_congruential_rand`
+generates a series of random numbers starting from uniform using pseudorandom generator between 0 and 1 and compares with MATLAB rand() via histograms
+<img src="/images/lcg_rand.png" width="500" alt="Linear Congruential Random Number Generator"> 
+
+
+
