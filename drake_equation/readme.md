@@ -1,21 +1,23 @@
 # Desc 
+Program that allows for inputs to the factors of the Drake Equation, which attempts to calculate
+the number of civilizations on life-bearing planets in the galaxy that can emit detectable signals. 
 
-#Files 
-`weighted_least_squares`
-plots height as a function of time & uses weighted
-least squares equations to fit a line 
+# Files 
+`main`
+allows users to input the factors for the Drake Equation and plots the number of civilizations as a function of varying L, which represents how long a civilization can emit signals (i.e. the life span of the civilization) 
 <img src="/images/weighted_least_squares.png" height="300" alt="Weighted Least Squares">
 
-`feigenbaum`
-quantifies the approach of chaos via period doubling with the standard logistic map 
-<img src="/images/feigenbaum.png" height="300" alt="Feigenbaum Constant">
+`examples`
+gives four examples of variable inputs to the Drake Equation and displays the resulting graph with upper and lower bound indicators
+<img src="drake_equation_visual.png" height="300" alt="Drake Equation Visualization">
 
-`logistic_map`
-calculates sequence for given parameter of <i>r</i>
-& plots sequence as a function of the parameter 
+`fixed_L`
+computes the number of civilizations *N* with the Drake Equation with user inputs for all factors except L, which is
+a randomly generated number in a pre-prescribed range 
 
-<img src="/images/logistic_map_1.png" height="380" alt="Logistic Map I">
+# Websites 
+<a href="https://www.seti.org/drake-equation-index">Drake Equation Seti</a>
+<a href="http://nautil.us/issue/80/aliens/what-are-the-odds-of-alien-contact">Drake Equation Nautilus</a>
 
-`logistic_map_redux`
-logistic map with plotted sequences of <i>N</i> vs <i>X_n</i> for different values of <i>r</i>  
-<img src="/images/logistic_map_redux.png" height="380" alt="Logistic Map">
+# Works Cited
+Default factor numbers come from the Nautilus article. (linked above)
