@@ -8,7 +8,7 @@ allows users to input the factors for the Drake Equation and plots the number of
 
 `examples`
 gives four examples of variable inputs to the Drake Equation and displays the resulting graph with upper and lower bound indicators
-<img src="drake_equation_visual.png" height="300" alt="Drake Equation Visualization">
+<br><img src="drake_equation_visual.png" height="300" alt="Drake Equation Visualization">
 
 `fixed_L`
 computes the number of civilizations *N* with the Drake Equation with user inputs for all factors except L, which is
