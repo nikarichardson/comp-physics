@@ -11,8 +11,7 @@ gives four examples of variable inputs to the Drake Equation and displays the re
 <br><img src="drake_equation_visual.png" height="300" alt="Drake Equation Visualization">
 
 `fixed_L`
-computes the number of civilizations *N* with the Drake Equation with user inputs for all factors except L, which is
-a randomly generated number in a pre-prescribed range 
+computes the number of civilizations *N* with the Drake Equation with user inputs for all factors except <i>L</i>, which is a randomly generated number within a pre-prescribed range 
 
 # Websites 
 <a href="https://www.seti.org/drake-equation-index">Drake Equation Seti</a>
