@@ -150,3 +150,42 @@ gives four examples of variable inputs to the Drake Equation and displays the re
 `fixed_L`
 computes the number of civilizations *N* with the Drake Equation with user inputs for all factors except <i>L</i>, which is a randomly generated number within a pre-prescribed range 
 
+# The SIR Model
+Project implements the **SIR model** (susceptible-infected-recovered (SIR) model) to study the spread of infectious diseases. Using two papers presented in the Docs directory, the SIR model is represented for the case of EVD in Liberia in 2014 and the case of COVID-19 in South Korea in 2020.
+
+**I(t)** the infected individuals who can spread the disease  
+**S(t)** the number of individuals who can catch the disease @ any t  
+**R(t)** the individuals who have recovered from disease & attained immunity, including those who passed away from the disease 
+
+<img src="SIR_model/images/sir_compartment.jpg"> 
+
+<img src="SIR_model/images/vector_field.jpg"> 
+
+`main`
+The main program which implements the SIR model following the Kermack and McKendrick 1927 Epidemic Model
+as outlined in 4th Edition of Differential Equations (Blanchard, Devaney, Hall 2012.) Graphs I(t), S(t), and R(t)
+using Euler's Method for a system of differential equations. Allows for user inputs to β, α and also includes an approximation to the solution curve for I(t) in the SIR model. 
+
+<br><img src="SIR_model/screenshots/main.png" height="400" alt="The SIR Model for an Epidemic">
+
+<br><img src="SIR_model/screenshots/approx_sol_curve.png" height="400" alt="Approximation to the Solution Curve for I(t) in the SIR Model">
+
+`case_examples`
+Presents two implementations of the SIR model according to cited papers: one studies the spread of EVD (Ebola) in Liberia in 2014. The other one investigates the spread of COVID-19 in South Korea. The plots are made according to values of α and β as determined and outlined in the respective studies. 
+
+<br><img src="SIR_model/screenshots/case_examples.png" height="400" alt="Case Examples of the SIR Model"> 
+
+`param_ratio`
+Rewrites the differential equation system as I(S) and graphs I(S) = 0 as a function of ρ where  ρ=β/α. The solutions for which I(S) = 0 indicates the fraction of the population that avoids getting infected altogether 
+
+<br><img src="SIR_model/screenshots/param_ratio.png" height="400" alt="I(S) and I(S) = 0 for the SIR Model"> 
+
+`vaccinated_SIR`
+Presents an altered model that incorporates the assumption that a percentage of the population is vaccinated, thus reducing S(t), that is, the proportion of the population that is susceptible at time *t*. Given α, β as user inputs, 
+the program informs the user of the percentage of the population that would need to be vaccinated to prevent the epidemic. Displays the graph with the SIR model incorporating the vaccinated percentage of the population. 
+
+<br><img src="SIR_model/screenshots/vaccinated_SIR.png" height="400" alt="The SIR Model with a Partly Vaccinated Population"> 
+
+`works_cited`
+As described, a citation of the textbook, the various papers referenced, a couple of websites that proved helpful, and a (very) brief evaluation of the limitations of the model and suggested expansions. 
+
