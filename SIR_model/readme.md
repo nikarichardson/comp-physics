@@ -41,6 +41,7 @@ the program informs the user of the percentage of the population that would need
 As described, a citation of the textbook, the various papers referenced, a couple of websites that proved helpful, and a (very) brief evaluation of the limitations of the model and suggested expansions. 
 
 # Works Cited 
+See `works_cited.m` for the full works cited. 
 Study used for the case example of Coronavirus in South Korea: 
 https://www.medrxiv.org/content/10.1101/2020.04.13.20063412v1
 
