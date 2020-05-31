@@ -2,7 +2,7 @@
 This project implements the SIR model (susceptible-infected-recovered (SIR) model) to study the spread of infectious diseases. Using two papers presented in the **Docs** directory, we represent the SIR model for the case of EVD in 
 Liberia in 2014 and the case of COVID-19 in South Korea in 2020. 
 
-<img src="screenshots/choosing_params.png" width="200"> 
+<img src="screenshots/choosing_params.png" width="400"> 
 
 **I(t)** the infected individuals who can spread the disease 
 **S(t)** the number of individuals who can catch the disease @ any t  
