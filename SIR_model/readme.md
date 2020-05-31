@@ -4,7 +4,7 @@ Liberia in 2014 and the case of COVID-19 in South Korea in 2020.
 
 <img src="screenshots/choosing_params.png" width="400"> 
 
-**I(t)** the infected individuals who can spread the disease 
+**I(t)** the infected individuals who can spread the disease  
 **S(t)** the number of individuals who can catch the disease @ any t  
 **R(t)** the individuals who have recovered from disease & attained immunity, including those who passed away from the disease   
 
