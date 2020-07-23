@@ -1,7 +1,4 @@
 
-# About
-coming later
-
 # Programs
 `weighted_least_squares`
 plots height as a function of time & uses weighted
